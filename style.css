@@ -127,7 +127,7 @@ img {
 }
 
 .header {
-    background-image: url(./images/home-1.jpg);
+    background-image: url(images/home-1.jpg);
     min-height: 100vh;
     background-color: #111;
     background-position: top right;
@@ -832,7 +832,7 @@ section .box {
 }
 
 
-@media screen and (max-width: 768px) {
+@media only screen  and (width < 768px) {
     .header {
         background-position: center;
     }
